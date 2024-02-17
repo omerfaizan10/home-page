@@ -1,0 +1,294 @@
+/* Below css may contain classes for other webpages as well, project is ongoing*/
+
+.parent {
+    width: 100%;
+    height: 40px; 
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    position: relative;
+    background: transparent;
+    font-size: 20px;
+    
+}
+
+
+body { 
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ddd;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.button { 
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 750px;
+    transition: text-decoration 0.3s ease-in;
+    padding: 6px 8px;
+    border-radius: 3px;
+    font-size: 20px;
+    
+}
+
+.button:hover {
+    background-color: white;
+    text-decoration: blink;
+}
+
+.head-2 {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    background: transparent;
+   
+}
+
+.button-head2 {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 20px;
+    transition: text-decoration 0.3s ease-in;
+}
+
+.button-head2:hover {
+    color: white;
+    opacity: 0.9;
+    text-decoration: blink;
+}
+
+.content { 
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    color: black;
+    margin-top: 120px;
+    display: flex;
+}
+
+.content h1 {
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 140px;
+    background-attachment: scroll;
+    overflow: hidden; 
+    white-space: nowrap; /* Prevent wrapping */
+    animation: typing 10s steps(40) infinite, delayAnimation 15s infinite;
+    color: white; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content h1:hover { 
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+#button-head3 { 
+    background-color: black;
+    border: none;
+    left: calc(50% - 100px);
+    transition: text-decoration 0.3s ease-in;
+    padding: 12px 24px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 250px;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#button-head3:hover {
+    text-align: center;
+    text-decoration-color: #ddd;
+    text-decoration: none;
+    transition: text-decoration underline;
+    color: black; /* Change text color to black on hover */
+    background: transparent;
+    border: 2px solid black; 
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: height;
+    }
+}
+.container{ 
+    
+    padding: 20px;
+    
+}
+.child-con{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 390px;
+    background-color: white;
+    width: 800px;
+    height: 1000px;
+    border: 2px  black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 215px;
+    padding: 20px;
+    border-radius: 10px;
+    top: 150px;
+
+    
+
+}
+.freelancers-web{ 
+    padding: 5px;
+    position: absolute;
+    width: 650px;
+    height: 190px;
+    background: #ddd;
+    left: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 10px;
+    align-content: space-between;
+    display: flex;
+    
+
+}
+.freelancers-web img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+    top: 0;
+    left: 10px;
+    position: absolute;
+}
+.freelancers-web span {
+    top: 20px;
+    margin-left: 60px; 
+    position: absolute;
+}
+.details{ 
+    position: absolute;
+    top: 70px;
+    font-size: 15px;
+}
+.freelancers-web button {
+    top: 20px;
+    margin-left: 550px; 
+    position: absolute;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.6);
+    border: none;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.freelancers-web button:hover{ 
+    background-color: black;
+    color: white;
+    box-shadow: none;
+}
+.freelancers-web .b2{ 
+    margin-top: 40px; 
+    position: absolute;
+    margin-left: 530px;
+} 
+.freelancers-web .b3{
+    margin-top: 140px;
+    left: -270px;
+    background: black;
+    color: white; 
+    position: absolute;
+    padding: 8px 12px;
+    border: none;
+}
+.freelancers-web2{ 
+    padding: 5px;
+    position: absolute;
+    width: 650px;
+    height: 190px;
+    background: #ddd;
+    left: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 10px;
+    align-content: space-between;
+    display: flex;
+    
+top: 380px;
+}
+.freelancers-web2 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+    top: 0;
+    left: 10px;
+    position: absolute;
+}
+.freelancers-web2 span {
+    top: 20px;
+    margin-left: 60px; 
+    position: absolute;
+}
+
+.freelancers-web2 button {
+    top: 20px;
+    margin-left: 550px; 
+    position: absolute;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.6);
+    border: none;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.freelancers-web2 button:hover{ 
+    background-color: black;
+    color: white;
+    box-shadow: none;
+}
+.freelancers-web2 .b2{ 
+    margin-top: 40px; 
+    position: absolute;
+    margin-left: 530px;
+} 
+.freelancers-web2 .b3{
+    margin-top: 140px;
+    left: -270px;
+    background: black;
+    color: white; 
+    position: absolute;
+    padding: 8px 12px;
+    border: none;
+}
+
